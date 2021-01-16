@@ -1,0 +1,73 @@
+.reliability {
+    padding-top: 140px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.reliability__title {
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--color-black);
+    position: relative;
+    display: inline-block;
+}
+
+.reliability__title::before {
+    content: '';
+    position: absolute;
+    right: -36px;
+    top: -24px;
+    background-image: url(../images/flower.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.reliability__description {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-gray);
+    max-width: 100%;
+}
+
+.reliability__suptitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.reliability__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-gray);
+}
+
+.reliability__row {
+    padding-top: 48px;
+}
+
+.reliability__item {
+    padding: 16px;
+}
+
+.reliability__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    align-items: center;
+    background: #F6F8F9;
+    border-radius: 5px;
+    padding: 46px 42px;
+}
+.reliability__footer svg {
+    white-space: nowrap;
+    margin: 0 66px 0 26px;
+}
+.reliability__more {
+    margin-left: 92px;
+}
